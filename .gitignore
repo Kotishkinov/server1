@@ -1,0 +1,51 @@
+# ---- Secrets / environment ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# ---- Dependencies (in case tooling is added later) ----
+node_modules/
+.pnpm-store/
+vendor/
+
+# ---- Build / cache output ----
+dist/
+build/
+.cache/
+.parcel-cache/
+.temp/
+tmp/
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- OS junk ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Local tooling ----
+.claude/

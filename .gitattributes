@@ -1,0 +1,16 @@
+# Normalize line endings: LF in the repository for all text files
+* text=auto eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+
+# Binary assets (none currently, but future-proof)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
